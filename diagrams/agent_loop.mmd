@@ -1,0 +1,16 @@
+sequenceDiagram
+  participant U as User
+  participant A as Agent
+  participant L as LLM
+  participant P as Policy
+  participant T as Tool
+  U->>A: task
+  A->>L: messages
+  L-->>A: action=tool
+  A->>P: validate
+  P-->>A: ok
+  A->>T: run
+  T-->>A: output
+  A->>L: observation
+  L-->>A: action=final
+  A-->>U: final answer

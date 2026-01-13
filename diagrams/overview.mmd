@@ -1,0 +1,8 @@
+flowchart LR
+  User([User]) --> API[API/CLI]
+  API --> Agent[Agent Runtime]
+  Agent --> LLM[LLM Provider]
+  Agent --> Policy[Tool Policy]
+  Agent --> Tools[Tool Registry]
+  Agent --> Memory[(Memory Store)]
+  Tools --> External[(External Systems)]
