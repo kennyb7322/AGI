@@ -8,7 +8,14 @@ Core components for the AGI framework
 
 from .model import AGIModel
 from .neural_network import NeuralNetwork
-from .trainer import ModelTrainer
-from .inference import InferenceEngine
+from .trainer import ModelTrainer, TrainingConfig
+from .inference import InferenceEngine, InferenceConfig
 
-__all__ = ['AGIModel', 'NeuralNetwork', 'ModelTrainer', 'InferenceEngine']
+__all__ = [
+    'AGIModel',
+    'NeuralNetwork',
+    'ModelTrainer',
+    'TrainingConfig',
+    'InferenceEngine',
+    'InferenceConfig',
+]
