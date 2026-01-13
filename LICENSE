@@ -1,0 +1,41 @@
+AGI FRAMEWORK – PROPRIETARY LICENSE (TEMPLATE)
+===========================================
+
+Copyright (c) 2026 Kenny B (kennyb7322)
+
+IMPORTANT: This is a *template* proprietary license and confidentiality notice.
+It is NOT legal advice. If you intend to rely on this in production, consult qualified counsel.
+
+1. DEFINITIONS
+--------------
+"Software" means the source code, documentation, diagrams, examples, and any other materials in this repository.
+
+2. OWNERSHIP
+------------
+All right, title, and interest in and to the Software is and shall remain with the copyright holder(s).
+
+3. NO PUBLIC LICENSE GRANTED
+----------------------------
+No license is granted to any person or entity except as explicitly authorized in writing by the copyright holder(s).
+You may not copy, modify, distribute, sublicense, or publicly display the Software, in whole or in part, without
+prior written permission.
+
+4. CONFIDENTIALITY (IF THIS REPOSITORY IS PRIVATE)
+--------------------------------------------------
+If you have access to the Software via a private repository or private distribution, you agree to treat the Software
+as confidential information. You will not disclose it to third parties except to your employees/contractors who have
+a need to know and are bound by confidentiality obligations at least as protective as these terms.
+
+NOTE: If you publish this repository publicly (e.g., a public GitHub repo), confidentiality markings are not effective.
+
+5. DISCLAIMER OF WARRANTY
+-------------------------
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+6. TERMINATION
+--------------
+Any unauthorized use terminates any permission you may have had to access or use the Software.
+

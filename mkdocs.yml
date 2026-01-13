@@ -1,0 +1,37 @@
+site_name: AGI Framework
+repo_name: kennyb7322/AGI
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+nav:
+  - Home: index.md
+  - Architecture:
+      - Overview: architecture/overview.md
+      - Components: architecture/components.md
+      - Dataflow: architecture/dataflow.md
+      - Plugins: plugins.md
+  - Safety:
+      - Safety overview: safety/README.md
+      - Threat model: safety/threat_model.md
+      - Prompt injection: safety/prompt_injection.md
+  - Governance:
+      - Governance overview: governance/README.md
+  - Evaluation:
+      - Evaluation overview: evaluation/README.md
+  - Use cases:
+      - Research assistant: use_cases/research_assistant.md
+      - Dev assistant: use_cases/dev_assistant.md
+      - Workflow runner: use_cases/workflow_runner.md
+      - Multi-agent team: use_cases/multi_agent_team.md
+  - References: references.md

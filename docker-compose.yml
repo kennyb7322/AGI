@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  agi:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - AGI_CONFIG=/app/configs/app.default.yaml
+      - AGI_WORKSPACE=/app/workspace
+    volumes:
+      - ./workspace:/app/workspace
