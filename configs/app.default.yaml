@@ -1,0 +1,22 @@
+llm:
+  provider: mock
+  model: mock-1
+
+agent:
+  name: agi-agent
+  system_prompt: |
+    You are a helpful agent.
+    - Use tools when needed.
+    - Follow the safety policy.
+    - Prefer returning structured JSON actions: {"action":"tool",...} or {"action":"final",...}.
+  max_steps: 6
+  redact_logs: true
+
+policy:
+  allow_network: false
+  allowed_domains: []
+  allow_file_read: true
+  allow_file_write: false
+  allowed_write_paths: ["data/"]
+  allowed_tools: []
+  blocked_tools: []
