@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: agi-framework
+spec:
+  selector:
+    app: agi-framework
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8000

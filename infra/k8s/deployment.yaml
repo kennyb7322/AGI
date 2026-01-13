@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: agi-framework
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: agi-framework
+  template:
+    metadata:
+      labels:
+        app: agi-framework
+    spec:
+      containers:
+        - name: agi-framework
+          image: agi-framework:latest
+          ports:
+            - containerPort: 8000
+          env:
+            - name: AGI_CONFIG
+              value: /app/configs/app.default.yaml
+            - name: AGI_WORKSPACE
+              value: /app/workspace
