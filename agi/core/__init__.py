@@ -1,0 +1,21 @@
+"""
+AGI Framework - Core Module
+Copyright (c) 2026 kennyb7322
+Licensed under the MIT License
+
+Core components for the AGI framework
+"""
+
+from .model import AGIModel
+from .neural_network import NeuralNetwork
+from .trainer import ModelTrainer, TrainingConfig
+from .inference import InferenceEngine, InferenceConfig
+
+__all__ = [
+    'AGIModel',
+    'NeuralNetwork',
+    'ModelTrainer',
+    'TrainingConfig',
+    'InferenceEngine',
+    'InferenceConfig',
+]

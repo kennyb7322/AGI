@@ -1,0 +1,17 @@
+# AGI Framework - Requirements
+# Copyright (c) 2026 kennyb7322
+# Licensed under the MIT License
+
+# No external dependencies required!
+# The AGI Framework is built with pure Python for maximum compatibility.
+
+# Optional dependencies for development and testing:
+
+# Testing (optional)
+# pytest>=7.0.0
+# coverage>=6.0
+
+# Development (optional)
+# black>=22.0.0
+# flake8>=4.0.0
+# mypy>=0.950
