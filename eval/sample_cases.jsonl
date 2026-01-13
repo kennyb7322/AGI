@@ -1,0 +1,2 @@
+{"id":"arith-1","task":"What is 23*19? Use the calculator tool.","expected_substring":"437"}
+{"id":"mock-1","task":"Summarize the safety policy in one sentence.","expected_substring":"mock model"}
